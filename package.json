@@ -6,8 +6,7 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "start": "node craftsman serve",
-    "start:dev": "node craftsman serve --dev",
+    "start": "node craftsman serve --dev",
     "test": "jest --roots test",
     "test:watch": "jest --roots test --watchAll"
   },
