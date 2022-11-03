@@ -42,5 +42,10 @@
       "storage"
     ]
   },
+  "hooks": {
+    "pre-serve": [
+      "node craftsman config:cache"
+    ]
+  },
   "language": "TypeScript"
 }
